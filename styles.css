@@ -1,0 +1,53 @@
+
+
+body,
+html {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-shadow: 5px 5px black;
+}
+
+body {
+    color: white;
+    background-color: black;
+    background-image: url("imgs/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+img {
+    filter: drop-shadow(10px 10px 0px black);
+    width:100%;
+}
+
+#logoDiv {
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#textDiv {
+    /* padding: 50px; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
